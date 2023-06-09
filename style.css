@@ -1,0 +1,736 @@
+/*Heading Section*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+header{
+    background-color: #000080;
+    box-shadow: 0px 2px 5px 5px black;
+}
+
+
+
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 60px;
+}
+.navbar>span{
+    font-size: 3em;
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px black;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-branding{
+    font-size: 2rem;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+background-color:#fffefe;
+}
+.nav-link{
+    transition: 0.3s ease-in;
+    font-size:large;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #ffffff;
+    transition: .2s ease-in;
+}
+
+main{
+    width: 100%;
+  height: 65vh;
+    position: relative;
+   z-index: -1;
+  
+}
+.bar{
+    height: 3px;
+    width: 20px;
+}
+/*Main Section*/
+main{
+    height: 600px;
+	width: 100%;
+background-image:url(https://i.ibb.co/4Rhsjq8/photo-1470225620780-dba8ba36b745.jpg);
+background-repeat:no-repeat; 
+background-size: cover;
+display: flex;
+
+text-align: center;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
+}
+.mytunes{
+    color: #ffffff;
+    font-weight: bolder;
+}
+.heading{
+    font-size: 60px;
+}
+.about{
+    font-size: 40px;
+}
+.about2{
+    font-size: 17px;
+    margin: 0px 15px;
+}
+/*Discription Section*/
+.discription{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    gap: 40px;
+    background-color: #241571;
+    position: relative;
+    
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -150px;
+}
+.tryus{
+    font-weight: bolder;
+    color: #ffffff;
+}
+.songs{
+    font-size: large;
+    margin: 0px 40px;
+
+}
+button{
+    width: 15%;
+    height: 35px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff0000;
+}
+button:hover{
+    box-shadow: 0px 0px 5px 5px black;
+    transition: 0.2s ease-in;
+}
+button>a{
+    text-decoration: none;
+    color: #fffafa;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+.avialability{
+    font-size: large;
+    font-weight: 700;
+}
+/*Ipad & Iphone section*/
+.ipad{
+   left: 27vw;
+    position: absolute;
+    top: 1020px;
+   
+
+}
+/*Read More Section*/
+.readmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.readmoreheading{
+    font-size: larger;
+    font-weight: bolder;
+}
+.readmorediscription{
+    font-size: large;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+
+    .readmorebutton{
+
+        width: 100px;
+        }
+
+.readmorebutton:hover{
+    box-shadow: 0px 0px 5px 5px #fffefe;
+}
+/*concert image section*/
+.concert{
+    background-image: url(https://i.ibb.co/K7WMry2/concert.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.concertheading{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0px 7px;
+}
+.concertdiscription{
+    padding: 10px 100px;
+    font-size: large;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+/*giftcardsection*/
+.giftcardsection{
+    display: flex;
+    width: 100%;
+  padding: 10px 30px;
+  gap:10%;
+  
+  
+
+}
+.giftcardimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giftcarddetails{
+    flex-grow: 2;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bolder;
+    padding: 0px 20px 0px 0px;
+}
+.giftcardheading{
+    font-size: x-large;
+   
+}
+.giftcardabout,.giftcardabout2{
+    font-size: large;
+}
+.giftcardbutton>button{
+    background-color: #0000ff;
+    color: #ffffff;
+    font-weight: normal;
+  width: 15%;
+  border-radius: 10%;
+}
+.giftcardbutton>button:hover{
+    box-shadow: 0px 0px 5px 5px #fffefe;
+}
+footer{
+    background-color: #000080;
+    color: #ffffff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.last>span{
+font-size: large;
+font-weight: 400;
+cursor: pointer;
+}
+
+.lastheading{
+    margin-bottom: 8px;
+    font-weight: bolder;
+    font-size: larger;
+    border-bottom:2px solid #ffffff ;
+    cursor: pointer;
+}
+/*copyright - section*/
+.copyright{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+@media (max-width:768px){
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active.bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active.bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active.bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        gap: 0;
+        top: 70px;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+.nav-item{
+    margin: 16px 0;
+}
+.nav-menu.active{
+    left: 0;
+}
+.nav-link{
+    color: #fffaff;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid #ffffff;
+    transition: .2s ease-in;
+}
+
+
+
+}
+@media (max-width:1250px){
+    .ipad{
+        left: 25vw;
+         position: absolute;
+         top: 1020px;
+        }
+        button{
+            width: 18%;
+            height: 35px;
+            border-radius: 25px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #ff0000;
+        }
+        .giftcardimage{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .readmorebutton{
+
+            width: 100px;
+            }
+    
+}
+@media (max-width:1150px){
+    .ipad{
+        left: 23vw;
+         position: absolute;
+         top: 1020px;
+        }
+        button{
+            width: 19%;
+            height: 35px;
+            border-radius: 25px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #ff0000;
+        }
+        .giftcardimage{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .readmorebutton{
+
+            width: 100px;
+            }
+    
+}
+@media (max-width:1050px){
+    .ipad{
+        left: 21vw;
+         position: absolute;
+         top: 1020px;
+        }
+        button{
+            width: 21%;
+            height: 35px;
+            border-radius: 25px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #ff0000;
+        }
+        .readmorebutton{
+
+            width: 100px;
+            }
+                .giftcardbutton>button{
+                width: 17%;
+            }
+            .giftcardsection{
+                display: flex;
+                gap: 15%;
+                padding: 0px 5px 0px 150px;
+               
+            }
+            .giftcarddetails{
+                padding: 10px 5px 10px 10px;
+            }
+            .giftcardimage>img{
+               width: 250%;
+            }
+            .giftcardbutton>button{
+                width: 20%;
+            }
+}
+@media (max-width:950px){
+    .ipad{
+        left: 18vw;
+         position: absolute;
+         top: 1020px;
+        }
+        .readmorebutton{
+
+            width: 90px;
+            }
+            .giftcardbutton>button{
+            width: 25%;
+        }
+        button{
+            width: 23%;
+        }
+        .giftcardsection{
+            display: flex;
+            gap: 15%;
+            padding: 0px 5px 0px 120px;
+           
+        }
+        .giftcarddetails{
+            padding: 10px 5px 10px 10px;
+        }
+        .giftcardimage>img{
+           width: 250%;
+        }
+        .giftcardbutton>button{
+            width: 20%;
+        }
+}
+@media (max-width:850px){
+    .ipad{
+        left: 12vw;
+         position: absolute;
+         top: 1020px;
+        }
+        .readmorebutton{
+
+            width: 90px;
+            }
+            .giftcardbutton>button{
+            width: 20%;
+        }
+        button{
+            width: 26%;
+        }
+        .giftcardimage>img{
+            width: 250%;
+         }
+         .giftcardsection{
+            display: flex;
+            gap: 15%;
+            padding: 0px 5px 0px 120px;
+           
+        }
+        .giftcarddetails{
+            padding: 10px 5px 10px 10px;
+        }
+     
+}
+@media (max-width:768px){
+    .giftcardsection{
+        display: flex;
+        gap: 15%;
+        padding: 0px 5px 0px 120px;
+       
+    }
+    button{
+        width: 29%;
+    }
+    .giftcarddetails{
+        padding: 10px 5px 10px 10px;
+    }
+    .giftcardimage>img{
+       width: 250%;
+    }
+    .giftcardbutton>button{
+        width: 20%;
+    }
+    .readmorebutton{
+
+        width: 100px;
+        }
+        .ipad>img{
+            width: 90%;
+        }
+
+
+}
+@media(max-width:668px){
+    main{
+        gap: 20px;
+    }
+    .navbar>span{
+        font-size: xx-large;
+    }
+    .ipad{
+        left: 17%;
+    }
+    .ipad>img{
+        width: 80%;
+    }
+    .heading{
+        font-size:45px
+    }
+    .about{
+        font-size: x-large;
+    }
+    .about2{
+        font-size: 15px;
+        margin: 0px 15px;
+    }
+    .songs{
+        font-size: 15px;
+    }
+   button>a{
+    font-size: 13px;
+   }
+   .giftcardheading{
+    font-size: larger;
+   
+}
+.giftcardabout,.giftcardabout2{
+    font-size: 15px;
+}
+.giftcarddetails{
+    gap: 15px;
+}
+.lastheading{
+    font-size: large;
+}
+.last>span{
+    font-size: 15px;
+}
+.concertheading{
+    font-size: larger;
+}
+.concertdiscription{
+    font-size: 15px;
+}
+.readmoreheading,.readmorediscription{
+    font-size: 15px;
+}
+.ipad{
+    top: 1000px;
+}
+.avialability{
+    font-size: 15px;
+}
+.discription{
+    height: 470px;
+}
+.logo{
+    margin-top: -100px;
+}
+.giftcardbutton>button{
+    width: 27%;
+}
+}
+@media (max-width:568px){
+    button{
+        width: 34%;
+    }
+    button>a{
+        font-size: 12px;
+    }
+    .readmorebutton{
+
+        width: 80px;
+        }
+        .readmorebutton>a{
+            font-size: 12px;
+        }
+        .readmore{
+            margin-top: 250px;
+        }
+
+            .giftcardbutton>button{
+            width: 23%;
+        }
+        .logo{
+            margin-top: -60px;
+        }
+        .ipad{
+            top: 1050px;
+        }
+        .concertdiscription{
+            padding: 15px 50px;
+        }
+        footer{
+            background-color: #000080;
+            color: #ffffff;
+            height: 700px;
+            display: grid;
+            display: flex;
+            flex-direction: column;
+        
+        
+        }
+        .giftcardsection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+          padding: 10px 30px;
+          gap:10%;
+          
+          
+        
+        }
+        .giftcardimage{
+            width: 50%;
+           text-align: center;
+        }
+        .giftcardimage>img{
+            width: 100%;
+            
+           
+         }
+         .concertheading{
+           margin:0px 20px ;
+}
+.discription{
+    height: 490px;
+}
+
+}
+@media (max-width:468px){
+    main{
+        height: 400px;
+    }
+    button{
+      width: 155px
+    }
+    .logo{
+        margin-top: -35px;
+    }
+    .ipad{
+        top: 900px;
+    }
+    .readmorebutton{
+
+        width: 80px;
+        }
+
+}
+@media (max-width:368px){
+    .readmore{
+        margin-top: 200px;
+    }
+    .discription{
+        height: 510px;
+    }
+.ipad{
+    top: 920px;
+}    
+.logo{
+    margin-top: -60px;
+}
+
+
+
+}
+@media (max-width:268px){
+    .navbar{
+        padding: 0px 20px 0px 20px;
+    }
+    .logo{
+        margin-top: -50px;
+    }
+    .discription{
+        height: 540px;
+    }
+    .ipad{
+        top: 980px;
+    }
+    .concert{
+        height: 500px;
+    }
+    .giftcardbutton>button{
+        width: 80px;
+    }
+
+}
+@media (max-width:220px){
+    .discription{
+        height: 750px;
+    }
+.ipad{
+    top: 1150px;
+}    
+
+}
